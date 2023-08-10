@@ -1,0 +1,39 @@
+cabeçalho__literatureclass {
+    width: 24px;
+    height: 24px; 
+    background-image:url("..img/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display:inline-block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+
+}
+
+.container__image {
+    padding: 1em;
+
+}
+@import url("styles/header.css");
+
+:root{
+    --cor-de-fundo: #FFE8E5;
+    --branco: #FFFFFF;
+    --rosa: #ff08f7;
+    --azul-degrade: linear-gradient(97.54deg, #0O2F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    background-color: #FFFFFF;
+
+}
